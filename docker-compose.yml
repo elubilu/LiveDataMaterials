@@ -1,7 +1,7 @@
 ---
 services:
   jekyll:
-    image: jekyll/jekyll:3.8
+    image: jekyll/jekyll
     environment:
       - JEKYLL_ENV=development
       - LANG=C.UTF-8
